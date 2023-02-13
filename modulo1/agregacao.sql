@@ -1,0 +1,12 @@
+-- FUNÇÕES DE AGREGAÇÃO
+
+/*
+	COUNT - RETORNA A QUANTIDADE DE REGISTROS (count aceita um campo ou *)
+	SUM   - RETORNA A SOMA DOS REGISTROS
+	MAX   - RETORNA O MAIOR VALOR DOS REGISTROS
+	MIN   - RETORNA O MENOR VALOR DOS REGISTROS
+	AVG   - RETORNA A MEDIA DOS REGISTROS
+*/ 
+
+Select count(id), sum(id), max(id), min(id), avg(id)
+	FROM funcionarios;
